@@ -7,6 +7,7 @@ import { Navbar1Component } from './navbar1/navbar1.component';
 import { BannerComponent } from './banner/banner.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { FooterComponent } from './footer/footer.component';
+import { Navbar5Component } from './navbar5/navbar5.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +15,11 @@ import { FooterComponent } from './footer/footer.component';
     Navbar1Component,
     BannerComponent,
     Navbar2Component,
-    FooterComponent
+    FooterComponent,
+    Navbar5Component,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
