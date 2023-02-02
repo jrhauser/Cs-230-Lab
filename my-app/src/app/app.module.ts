@@ -7,6 +7,7 @@ import { Navbar1Component } from './navbar1/navbar1.component';
 import { BannerComponent } from './banner/banner.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { FooterComponent } from './footer/footer.component';
+import { Navbar5Component } from './navbar5/navbar5.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { Card1Component } from './card1/card1.component';
 
@@ -16,15 +17,10 @@ import { Card1Component } from './card1/card1.component';
     Navbar1Component,
     BannerComponent,
     Navbar2Component,
-    FooterComponent,
-    CarouselComponent,
-    Card1Component
+    FooterComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
