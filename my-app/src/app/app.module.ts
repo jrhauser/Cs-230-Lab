@@ -17,7 +17,10 @@ import { Card1Component } from './card1/card1.component';
     Navbar1Component,
     BannerComponent,
     Navbar2Component,
-    FooterComponent
+    FooterComponent,
+    Card1Component,
+    CarouselComponent,
+    Navbar5Component
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
