@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { Navbar5Component } from './navbar5/navbar5.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { Card1Component } from './card1/card1.component';
+import { CardOverlayComponent } from './card-overlay/card-overlay.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Card1Component } from './card1/card1.component';
     FooterComponent,
     Card1Component,
     CarouselComponent,
-    Navbar5Component
+    Navbar5Component,
+    CardOverlayComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
