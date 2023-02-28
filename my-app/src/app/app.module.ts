@@ -11,6 +11,11 @@ import { Navbar5Component } from './navbar5/navbar5.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { Card1Component } from './card1/card1.component';
 import { CardOverlayComponent } from './card-overlay/card-overlay.component';
+import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { CartLayoutComponent } from './layouts/cart-layout/cart-layout.component';
+import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
+import { DrySuitsLayoutComponent } from './layouts/drysuits-layout/drysuits-layout.component';
+import { DrytopsLayoutComponent } from './layouts/drytops-layout/drytops-layout.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { CardOverlayComponent } from './card-overlay/card-overlay.component';
     Card1Component,
     CarouselComponent,
     Navbar5Component,
-    CardOverlayComponent
+    CardOverlayComponent,
+    HomeLayoutComponent,
+    CartLayoutComponent,
+    LoginLayoutComponent,
+    DrySuitsLayoutComponent,
+    DrytopsLayoutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

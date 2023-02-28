@@ -1,19 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Immersion Research</title>
-  </head>
-  <body>
       <app-banner />
       <app-navbar5 />
       <app-navbar2 />
-      <app-carousel />
-      <div *ngFor="let item of products">
-        <app-card1  title={{item.title}} description={{item.description}} buttonText={{item.buttonText}}/>
-      </div>
-      <app-footer/>
-  </body>
-</html>
+      <router-outlet />
+      <app-footer />
