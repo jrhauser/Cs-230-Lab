@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ProductModel } from './product.model';
-import { mock_list } from './mock_list';
+import { ProductModel } from '../../card2/product.model';
+import { mock_list } from '../../card2/mock_list';
 @Component({
   selector: 'app-drysuits-layout',
   templateUrl: './drysuits-layout.component.html',

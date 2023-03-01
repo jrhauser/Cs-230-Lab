@@ -1,1 +1,7 @@
-<p>drysuits-layout works!</p>
+
+<div class="flex">
+    <div *ngFor="let item of products">
+    <app-card2 classs="" title={{item.title}} description={{item.description}}
+                           buttonText={{item.buttonText}} img={{item.img}}/>
+    </div>
+</div>
