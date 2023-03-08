@@ -20,7 +20,60 @@
       <div class="col-8">
         <a href="LoginLayout" class="btn bg-transparent">LOGIN</a>
         <a href="CartLayout" class="btn">CART</a>
-        <a class="btn"><img src="assets/icons/search.svg" /></a>
+        <button
+          type="button"
+          class="btn btn-transparent"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <img src="assets/icons/search.svg" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-secondary">
+        <div class="container d-flex justify-content-center">
+          <h1 class="modal-title fs-5 mx-auto" id="exampleModalLabel">
+            SEARCH
+          </h1>
+        </div>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body mb-0">
+        <div class="d-flex justify-content-end">
+          <textarea class="form-control" id="message-text"></textarea>
+          <button type="button" class="btn btn-transparent">
+            <img src="assets/icons/search.svg" />
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer container d-flex">
+        <div class="row justify-text-start container">
+          <p>Commonly Searched For</p>
+        </div>
+        <div class="row container justify-content-center">
+          <div class="col">Helmet Liners<br />Dry Suits<br />Hoodies</div>
+          <div class="col">
+            The Civil Suit<br />
+            Pogies & Gloves<br />Union Suits
+          </div>
+        </div>
       </div>
     </div>
   </div>
