@@ -1,4 +1,32 @@
 
+<div class="d-flex flex-column justify-content-start">
+    <div class="container">
+        <h5>DRY SUITS</h5>_______
+    </div>
+    <div class="container w-25">
+        <p>Dry suits are a cold weather paddling essential. Designed to keep you safe and 
+        dry in extreme environments. We offer a diverse range of drysuit models built to meet the needs of paddlers, rafters, rescue professionals 
+        and guides around the world.</p>
+    </div>
+</div>
+    
+<div class="container d-flex justify-content-end">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+   Sort By
+  </button>
+  <ul class="dropdown-menu">
+    <li><span class="dropdown-item-text">Featured</span></li>
+    <li><a class="dropdown-item" href="#">Best Selling</a></li>
+    <li><a class="dropdown-item" href="#">Alphabetically A-Z</a></li>
+    <li><a class="dropdown-item" href="#">Alphabetically Z-A</a></li>
+    <li><a class="dropdown-item" href="#">Price. low to high</a></li>
+    <li><a class="dropdown-item" href="#">Price. high to low</a></li>
+    <li><a class="dropdown-item" href="#">Date. old to new</a></li>
+    <li><a class="dropdown-item" href="#">Date. new to old</a></li>
+  </ul>
+</div>
+</div>
 <div class="flex">
     <div *ngFor="let item of products">
     <app-card2 classs="" title={{item.title}} description={{item.description}}
