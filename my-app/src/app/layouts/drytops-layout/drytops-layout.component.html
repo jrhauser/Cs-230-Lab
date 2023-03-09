@@ -1,1 +1,44 @@
-<p>drytops-layout works!</p>
+<div class="d-flex flex-column justify-content-start">
+  <div class="container">
+    <h5>DRY TOPS</h5>
+    _______
+  </div>
+  <div class="container w-25">
+    <p>
+      When paired with one of our spray skirts, a dry top is built to keep you
+      dry when kayaking. Latex wrist/neck gaskets with neoprene over cuffs
+      create a tight seal to prevent water intrusion. Dry tops are a great,
+      versatile addition to any kayaker's gear quiver as they excel in a variety
+      of conditions.
+    </p>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-end">
+  <div class="dropdown">
+    <button
+      class="btn btn-secondary dropdown-toggle"
+      type="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      Sort By
+    </button>
+    <ul class="dropdown-menu">
+      <li><span class="dropdown-item-text">Featured</span></li>
+      <li><a class="dropdown-item" href="#">Best Selling</a></li>
+      <li><a class="dropdown-item" href="#">Alphabetically A-Z</a></li>
+      <li><a class="dropdown-item" href="#">Alphabetically Z-A</a></li>
+      <li><a class="dropdown-item" href="#">Price. low to high</a></li>
+      <li><a class="dropdown-item" href="#">Price. high to low</a></li>
+      <li><a class="dropdown-item" href="#">Date. old to new</a></li>
+      <li><a class="dropdown-item" href="#">Date. new to old</a></li>
+    </ul>
+  </div>
+</div>
+<div class="flex">
+    <div *ngFor="let item of products">
+    <app-card3 classs="" title={{item.title}} description={{item.description}}
+                           buttonText={{item.buttonText}} img={{item.img}}/>
+    </div>
+</div>

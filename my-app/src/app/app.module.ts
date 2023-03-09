@@ -17,6 +17,7 @@ import { LoginLayoutComponent } from './layouts/login-layout/login-layout.compon
 import { DrySuitsLayoutComponent } from './layouts/drysuits-layout/drysuits-layout.component';
 import { DrytopsLayoutComponent } from './layouts/drytops-layout/drytops-layout.component';
 import { Card2Component } from './card2/card2.component';
+import { Card3Component } from './card3/card3.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { Card2Component } from './card2/card2.component';
     DrySuitsLayoutComponent,
     DrytopsLayoutComponent,
     Card2Component,
+    Card3Component,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
