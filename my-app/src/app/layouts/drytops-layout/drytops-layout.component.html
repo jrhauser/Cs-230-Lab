@@ -36,9 +36,10 @@
     </ul>
   </div>
 </div>
-<div class="flex">
-    <div *ngFor="let item of products">
-    <app-card3 classs="" title={{item.title}} description={{item.description}}
-                           buttonText={{item.buttonText}} img={{item.img}}/>
-    </div>
+<div class="container text-center">
+  <div class="row">
+    <div *ngFor="let item of products" class="row p-0" style="width: 450px">
+    <app-card2 title={{item.title}} description={{item.description}}
+                           buttonText={{item.buttonText}} img={{item.img}} price="{{item.price}}"/>
+    </div></div>
 </div>

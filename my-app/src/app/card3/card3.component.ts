@@ -11,6 +11,7 @@ export class Card3Component {
   @Input() title: string;
   @Input() description: string;
   @Input() buttonText: string;
+  @Input() price: string;
 
   constructor() {
     this.img = 'No img found';
@@ -18,6 +19,7 @@ export class Card3Component {
     this.title = '';
     this.description = '';
     this.buttonText = '';
+    this.price = '';
   }
 
   ngOnInit(): void {}

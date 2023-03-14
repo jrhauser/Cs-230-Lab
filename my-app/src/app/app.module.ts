@@ -18,6 +18,8 @@ import { DrySuitsLayoutComponent } from './layouts/drysuits-layout/drysuits-layo
 import { DrytopsLayoutComponent } from './layouts/drytops-layout/drytops-layout.component';
 import { Card2Component } from './card2/card2.component';
 import { Card3Component } from './card3/card3.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -37,8 +39,9 @@ import { Card3Component } from './card3/card3.component';
     DrytopsLayoutComponent,
     Card2Component,
     Card3Component,
+    UserInfoComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

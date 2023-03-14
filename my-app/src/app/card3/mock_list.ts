@@ -5,6 +5,7 @@ export const mock_list = [
     buttonText: 'DEVILS CLUB DRY TOP',
     img: './assets/deviltop.webp',
     imgDescription: ' ',
+    price: '$489.00',
   },
   {
     title: '',
@@ -12,6 +13,7 @@ export const mock_list = [
     buttonText: '7FIGURE DRY TOP',
     img: './assets/7figuretop.webp',
     imgDescription: 'not found',
+    price: '$489.00',
   },
   {
     title: '',
@@ -19,6 +21,7 @@ export const mock_list = [
     buttonText: '7FIGURE DRY TOP 2022',
     img: './assets/7figuretop22.webp',
     imgDescription: 'not found',
+    price: '$449.00',
   },
   {
     title: '',
@@ -26,6 +29,7 @@ export const mock_list = [
     buttonText: "DEVIL'S CLUB DRY TOP 2022",
     img: './assets/devildry.webp',
     imgDescription: 'not found',
+    price: '$329.00',
   },
   {
     title: '',
@@ -33,6 +37,7 @@ export const mock_list = [
     buttonText: "WOMEN'S APHRODITE DRY TOP",
     img: './assets/girltop.webp',
     imgDescription: 'not found',
+    price: '$329.00',
   },
   {
     title: '',
@@ -40,5 +45,6 @@ export const mock_list = [
     buttonText: "WOMEN'S APHRODITE DRY TOP 2022",
     img: './assets/girltop22.webp',
     imgDescription: 'not found',
+    price: '$289.00',
   },
 ];
