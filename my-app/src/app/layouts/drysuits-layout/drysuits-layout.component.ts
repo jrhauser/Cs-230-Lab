@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ProductModel } from '../../card2/product.model';
-import { mock_list } from '../../card2/mock_list';
+import { ProductsService } from '../../card2/card.service';
 @Component({
   selector: 'app-drysuits-layout',
   templateUrl: './drysuits-layout.component.html',
@@ -10,9 +10,14 @@ export class DrySuitsLayoutComponent {
   title = 'Dry Tops';
   products: ProductModel [] = [];
 
-  constructor(){
-    for (var item of mock_list){
-      this.products.push(item)
+  constructor(private productservice:ProductsService){}
+
+  ngOnInit(): void {
+    this.productservice.getProducts().subscribe((data: ProductModel []) =>{
+    for (var x of data){
+      console.log(x)
+      this.products.push(x)
     }
+    })
   }
-};
+}
