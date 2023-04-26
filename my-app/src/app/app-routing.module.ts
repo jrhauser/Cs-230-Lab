@@ -5,27 +5,32 @@ import { CartLayoutComponent } from './layouts/cart-layout/cart-layout.component
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
 import { DrySuitsLayoutComponent } from './layouts/drysuits-layout/drysuits-layout.component';
 import { DrytopsLayoutComponent } from './layouts/drytops-layout/drytops-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 const routes: Routes = [
   {
     path: '',
     component: HomeLayoutComponent,
   },
   {
+    path: 'admin',
+    component: AddProductComponent,
+  },
+  {
     path: 'CartLayout',
-    component: CartLayoutComponent
+    component: CartLayoutComponent,
   },
   {
     path: 'LoginLayout',
-    component: LoginLayoutComponent
+    component: LoginLayoutComponent,
   },
   {
     path: 'DrySuitsLayout',
-    component: DrySuitsLayoutComponent
+    component: DrySuitsLayoutComponent,
   },
   {
     path: 'DryTopsLayout',
-    component: DrytopsLayoutComponent
-  }
+    component: DrytopsLayoutComponent,
+  },
 ];
 
 @NgModule({
