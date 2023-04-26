@@ -50,7 +50,6 @@ import { CreateAccountLayoutComponent } from './layouts/create-account-layout/cr
     Card3Component,
     UserInfoComponent,
     AddProductComponent,
-    
   ],
   imports: [
     BrowserModule,
