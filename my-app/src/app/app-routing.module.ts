@@ -6,6 +6,7 @@ import { LoginLayoutComponent } from './layouts/login-layout/login-layout.compon
 import { DrySuitsLayoutComponent } from './layouts/drysuits-layout/drysuits-layout.component';
 import { DrytopsLayoutComponent } from './layouts/drytops-layout/drytops-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { CreateAccountLayoutComponent } from './layouts/create-account-layout/create-account-layout.component';
 const routes: Routes = [
   {
     path: '',
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'DryTopsLayout',
     component: DrytopsLayoutComponent,
+  },
+  {
+    path: "CreateAccount",
+    component: CreateAccountLayoutComponent,
   },
 ];
 

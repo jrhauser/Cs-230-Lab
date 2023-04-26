@@ -13,8 +13,6 @@ export class AddProductComponent implements OnInit {
   ngOnInit(): void {}
 
   addItem(product: ProductModel) {
-    console.log('You Clicked the button');
-    console.log(product);
     this.ps.addProduct(product);
   }
 }

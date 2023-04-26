@@ -27,6 +27,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { FormsModule } from '@angular/forms';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore/';
 import { AddProductComponent } from './add-product/add-product.component';
+import { CreateAccountLayoutComponent } from './layouts/create-account-layout/create-account-layout.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { AddProductComponent } from './add-product/add-product.component';
     Navbar1Component,
     BannerComponent,
     Navbar2Component,
+    CreateAccountLayoutComponent,
     FooterComponent,
     Card1Component,
     CarouselComponent,
@@ -48,6 +50,7 @@ import { AddProductComponent } from './add-product/add-product.component';
     Card3Component,
     UserInfoComponent,
     AddProductComponent,
+    
   ],
   imports: [
     BrowserModule,
